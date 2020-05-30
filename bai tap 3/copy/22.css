@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.clear {
+    clear: both;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+section {
+    width: 1300px;
+    margin: auto;
+}
+
+
+/* -----------------------Section 1st-------------------------- */
+
+.section-1st {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 566px;
+}
+
+
+/* -------------menu-left---------------- */
+
+.menu-left {
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #d9d8d8;
+    background: white;
+}
+
+.menu-item {
+    position: relative;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+/* .menu-item::after {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 0;
+    right: -35px;
+    margin: auto;
+    border-top: 18px solid transparent;
+    border-left: 17px solid rgba(24, 158, 255);
+    border-right: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+} */
+
+.menu-item .img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+}
+
+.menu-item .img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-item:nth-child(1) .img img {
+    width: 12px;
+    height: 18px;
+}
+
+.menu-item:nth-child(2) .img img {
+    width: 22px;
+    height: 18px;
+}
+
+.menu-item:nth-child(3) .img img {
+    width: 18px;
+    height: 18px;
+}
+
+.menu-item:nth-child(4) .img img,
+.menu-item:nth-child(5) .img img,
+.menu-item:nth-child(16) .img img {
+    width: 24px;
+    height: 18px;
+}
+
+.menu-item:nth-child(6) .img img,
+.menu-item:nth-child(10) .img img,
+.menu-item:nth-child(11) .img img,
+.menu-item:nth-child(12) .img img,
+.menu-item:nth-child(14) .img img,
+.menu-item:nth-child(15) .img img {
+    width: 22px;
+    height: 22px;
+}
+
+.menu-item:nth-child(7) .img img {
+    width: 24px;
+    height: 14px;
+}
+
+.menu-item:nth-child(8) .img img {
+    width: 14px;
+    height: 24px;
+}
+
+.menu-item:nth-child(9) .img img {
+    width: 12px;
+    height: 24px;
+}
+
+.menu-item:nth-child(13) .img img {
+    width: 18px;
+    height: 24px;
+}
+
+.menu-item .content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-item:hover {
+    background: #189eff;
+}
+
+.menu-item:hover::after {
+    display: block;
+}
+
+.menu-item:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.menu-item:hover span {
+    color: white;
+}
+
+.menu-inside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    background: white;
+}
+
+
+/* -------------menu-right---------------- */
+
+.menu-right {
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+
+.menu-right-item {
+    float: left;
+    height: 100%;
+}
+
+.item-left {
+    float: left;
+    width: 50%;
+    height: 33.33333333%;
+}
+
+.item-left img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.item-right {
+    float: left;
+    width: 50%;
+    height: 33.33333333%;
+}
+
+.item-right img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.item-right:hover img,
+.item-left:hover img {
+    opacity: 0.9;
+}
+
+
+/* -----------------------Section 2nd-------------------------- */
+
+.section-2nd {
+    width: 100%;
+    height: 183px;
+    margin-top: 35px;
+}
+
+.col-md-4-2nd {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.col-md-4-2nd img {
+    width: 100%;
+    height: 100%;
+}
+
+.col-md-4-2nd:hover img {
+    opacity: 0.9;
+}

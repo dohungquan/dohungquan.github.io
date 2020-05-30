@@ -1,0 +1,27 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+p{
+    font-size: 25px;
+    border: 1px solid green;
+  
+}
+h1{
+    color: crimson;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+.bai1-background{
+    color: royalblue;
+}
+.bai1-background1{
+    color: rgb(255, 47, 82);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
