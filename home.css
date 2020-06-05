@@ -1,0 +1,544 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif, Tahoma;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: unset;
+}
+
+ul {
+    display: flex;
+    background: rgb(254, 204, 76);
+}
+
+li {
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+#title {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: red;
+    padding: 20px 50px;
+}
+
+p {
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+/* page 1 camel */
+
+.cl-part-1 {
+    width: 65%;
+    height: 100vh;
+    padding: 15px 20px;
+}
+
+.cl-part-1 #camel-part-1 {
+    font-size: 20px;
+    padding: 20px 50px;
+    line-height: 1.4;
+    font-size: 14px;
+    float: left;
+}
+
+.camle-img {
+    width: 100%;
+    height: 319px;
+    float: right;
+    margin: 50px 0;
+}
+
+.camle-img img {
+    width: 100%;
+    height: 90%;
+}
+
+.cl-part-2 {
+    width: 35%;
+    height: 100vh;
+    position: absolute;
+    top: 200px;
+    left: 870px;
+}
+
+/* page 2 */
+
+.rs-part-1 {
+    width: 100%;
+    height: 150vh;
+    padding: 15px 20px;
+}
+
+#rs-part-1 {
+   
+    padding: 20px 50px;
+    line-height: 1.4;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+ 
+}
+
+.rs-img {
+    width: 100%;
+    height: 400px;
+    margin: 50px 0;
+}
+.rs-img img{
+    width: 49%;
+    height: 90%;
+    margin: 0;
+}
+
+.rs-part-2 {
+    width: 100%;
+    height: 100vh;
+    padding: 15px 20px;
+}
+#rs-part-2 {
+   
+    padding: 20px 50px;
+    line-height: 1.4;
+    font-size: 14px;
+}
+/* mouse jump */
+
+
+.Mouse-jump-part-1 {
+    width: 100%;
+    height: 150vh;
+    padding: 20px 50px;
+    line-height: 1.4;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+ 
+}
+
+.Mouse-jump-img-p3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Mouse-jump-img-p3 img{
+    width: 514px;
+    height: 90%;
+    margin: 0;
+}
+
+.Mouse-jump-part-2 {
+    width: 100%;
+    height: 100vh;
+    padding: 15px 20px;
+}
+
+/* page 4 */
+
+.Ostrich-part-1 {
+    width: 100%;
+    height: 150vh;
+    padding: 20px 50px;
+    line-height: 1.4;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+ 
+}
+
+.Ostrich-img-p4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Ostrich-img-p4 img{
+    width: 514px;
+    height: 90%;
+    margin: 0;
+}
+
+.Ostrich-part-2 {
+    width: 100%;
+    height: 100vh;
+    padding: 15px 20px;
+}
+
+/* page 5 */
+
+.Vulture-part-1 {
+    width: 100%;
+    height: 150vh;
+    padding: 20px 50px;
+    line-height: 1.4;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+ 
+}
+
+.Vulture-img-p5 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Vulture-img-p5 img{
+    width: 514px;
+    height: 90%;
+    margin: 0;
+}
+
+.Vulture-part-2 {
+    width: 100%;
+    height: 100vh;
+    padding: 15px 20px;
+}
+/* page 6 */
+
+
+.Scorpion-part-1 {
+    width: 100%;
+    height: 150vh;
+    padding: 20px 50px;
+    line-height: 1.4;
+    font-size: 14px;
+    display: inline-block;
+    width: 100%;
+ 
+}
+
+.Scorpion-img-p6 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Scorpion-img-p6 img{
+    width: 514px;
+    height: 90%;
+    margin: 0;
+}
+
+.Scorpion-part-2 {
+    width: 100%;
+    height: 100vh;
+    padding: 15px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#home-page {
+    width: 100%;
+    height: 550px;
+}
+
+.name {
+    padding: 10px;
+    margin: 15px 0;
+    font: 15px;
+}
+
+.info {
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    height: 200vh;
+}
+
+/* camel */
+
+.Camel {
+    width: 100%;
+    height: 300px;
+}
+
+.camel-detail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.camel-card {
+    border: none;
+    height: 100%;
+    border-radius: 10px;
+    background: palegoldenrod;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+
+.camel-img {
+    height: 100%;
+    width: 300px;
+}
+
+.camel-img img {
+    width: 300px;
+    height: 95%;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    transition: all .3s ease-out;
+}
+
+.camel-card img:hover {
+    transform: scale(1.2);
+}
+
+/*  Rattlesnak*/
+
+.Rattlesnak {
+    width: 100%;
+    height: 300px;
+    margin: 100px 0;
+}
+
+.Rattlesnak-detail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.Rattlesnak-card {
+    border: none;
+    height: 100%;
+    border-radius: 10px;
+    background: palegoldenrod;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+
+.Rattlesnak-img {
+    height: 100%;
+    width: 300px;
+}
+
+.Rattlesnak-img img {
+    width: 300px;
+    height: 95%;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    transition: all .5s ease-out;
+}
+
+.Rattlesnak-card img:hover {
+    transform: scale(1.3);
+}
+
+/*  Mouse jump */
+
+.Mouse-jump {
+    width: 100%;
+    height: 300px;
+    margin: 100px 0;
+}
+
+.Mouse-jump-detail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.Mouse-jump-card {
+    border: none;
+    height: 100%;
+    border-radius: 10px;
+    background: palegoldenrod;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+
+.Mouse-jump-img {
+    height: 100%;
+    width: 300px;
+}
+
+.Mouse-jump-img img {
+    width: 300px;
+    height: 95%;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    transition: all .3s ease-out;
+}
+
+.Mouse-jump-card img:hover {
+    transform: scale(1.5);
+}
+
+/* Ostrich */
+
+.Ostrich {
+    width: 100%;
+    height: 300px;
+    margin: 40px 0;
+}
+
+.Ostrich-detail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.Ostrich-card {
+    border: none;
+    height: 100%;
+    border-radius: 10px;
+    background: palegoldenrod;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+
+.Ostrich-img {
+    height: 100%;
+    width: 300px;
+}
+
+.Ostrich-img img {
+    width: 300px;
+    height: 95%;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    transition: all .5s ease-out;
+}
+
+.Ostrich-card img:hover {
+    transform: scale(1.9);
+}
+
+/*  Vulture*/
+
+.Vulture {
+    width: 100%;
+    height: 300px;
+    margin: 100px 0;
+}
+
+.Vulture-detail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.Vulture-card {
+    border: none;
+    height: 100%;
+    border-radius: 10px;
+    background: palegoldenrod;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+
+.Vulture-img {
+    height: 100%;
+    width: 300px;
+}
+
+.Vulture-img img {
+    width: 300px;
+    height: 95%;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    transition: all .8s ease-out;
+}
+
+.Vulture-card img:hover {
+    transform: translateX(100px);
+}
+
+/*Scorpion */
+
+.Scorpion {
+    width: 100%;
+    height: 300px;
+    margin: 100px 0;
+}
+
+.Scorpion-detail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.Scorpion-card {
+    border: none;
+    height: 100%;
+    border-radius: 10px;
+    background: palegoldenrod;
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+
+.Scorpion-img {
+    height: 100%;
+    width: 300px;
+}
+
+.Scorpion-img img {
+    width: 300px;
+    height: 95%;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    transition: all 1s ease-out;
+}
+
+.Scorpion-card img:hover {
+    transform: rotate(35deg);
+}
